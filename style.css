@@ -1,0 +1,85 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+   margin: 0;
+   padding: 0;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: tan;
+    width: 100%;
+    height: fit-content;
+}
+
+.estilo1footer{ 
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: flex;
+   justify-content: center;    
+}
+
+.estilo2footer{
+    display: grid;
+    border-bottom:groove;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    padding-bottom: 10px;
+}
+
+.estilo3footer{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+div>p{
+    display:inline-block;
+}
+
+.divfooter1{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 10px;
+}
+
+.divfooter2{
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+.icone4foodfooter{
+    width: 55px;
+}
+
+.iconesredes{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 35px;
+}
+ 
