@@ -1,28 +1,105 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 *{
-   margin: 0;
-   padding: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(27, 112, 55);
+}
+a{
+    text-decoration: none;
+    color: honeydew;
+}
+
+.menu{
+    font-size: 25px;
+    padding: 15px;
+}
+
+.icone-lupa{
+    width: 15px ;
+}
+
+.logo {
+    width: 100px;
+}
+
+section{
+    margin: 0 20px;
+}
+
+header{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    background-color: tan;
+    
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;  
+
+
+}
+
+h2{
+    font-size: 30px;
+}
+
+.subtitulo{
+    text-align: center;
+}
+
+
+.img-mercado{
+    width: 200px;
+}
+
+.comida{
+    width: 200px;
+}
+
+.container-sessao-de-mercado{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    text-align: center;
+    row-gap: 10px;
+}
+
+.container-sessao-de-marmitas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    text-align: center;
+    padding: 10px;
+    row-gap: 10px;
+}
+
+#menu-pratos-prontos{
+    padding-bottom: 30px;
+    padding-top: 60px;
+}
+
+.container-de-mercado:hover{
+    border-radius: tan 1px solid ;
+    box-shadow: tan 5px 5px 3px;
+    padding: 40px;
+}
+    
+.container-de-marmita:hover{
+    border-radius: tan 1px solid ;
+    box-shadow: tan 5px 5px 3px;
+    padding: 40px;
 }
 
 footer{
-    position: absolute;
+    position: relative;
     bottom: 0;
     background-color: tan;
     width: 100%;
