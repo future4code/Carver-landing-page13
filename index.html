@@ -5,16 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="/style.css">
+    <title>4Food</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 
 <body>
 
     <header>
         <div class="logomarca">
-            <img class="logo" src="./recursosfooter/4food (2).png">
+            <!-- <img class="logo" src="./recursosfooter/4food (2).png"> -->
+            <h1>4food</h1>
         </div>
+
         <div class="menu-header-navegação">
             <nav>
                 <a class="menu" href="#menu-mercado">Mercados</a>
@@ -32,15 +34,17 @@
             <button type="button" class="botao-conta" label="Crie sua conta" target="">
                 Crie sua conta
             </button>
-            <button type="button" class="botao" label="Entrar" target="">
+            <button type="button" class="botao-entrar" label="Entrar" target="">
                 Entrar
             </button>
         </div>
 
     </header>
 
-    <h1>4Food</h1>
-    <h3 class="subtitulo">Coma bem sem sair de casa</h3>
+    <section class="banner-principal">
+        <img class="logo" src="./recursosfooter/4food (2).png" alt="logo da empresa">
+        <h3 class="subtitulo">Coma bem sem sair de casa</h3>
+    </section>
 
     <section id="menu-mercado">
         <h2>Mercados</h2>
@@ -115,21 +119,66 @@
     </section>
 
 
-    <section>
+    <section class="formulario-entregas">
         <h2>Entregas</h2>
-        <p>Preencha os dados para entrega</p>
-        <label for="nome">Nome</label>
-        <input type="text" name="nome" id="nome">
+        <p id="texto-dados">Preencha os dados para entrega:</p>
+        <form id="form-edereco">
+            <label for="nome" id="nome">Nome</label>
+            <input type="text" name="nome" id="nome">
+            <label for="adress" >Endereço</label>
+            <input type="adress" name="endereco">
+        </form>
 
 
     </section>
 
-    <section id="quem-somos">
+    <section class="classe-quem-somos">
         <h2>Quem somos</h2>
+        <p id="quem-somos">
+            Uma empresa que surgiu diante da necessidade da proximidade do contati entre o
+            cliente e suas compras. Unimos o útil ao agradável, onde o cliente pode encontrar
+            produtos de qualidade com preço justo e sem sair de casa. E o mercado ou restaurante
+            pode levar alcançar mais clientes e continuar com o seu atendimento.
+        </p>
     </section>
 
-    <section id="contato">
+    <section class="contato">
         <h2>Contato</h2>
+        <p id="p-de-contato">4food@contato4food.com.br</p>
+
+        <div>
+            <h3 id="h3-contato">Envie uma mensagem para nós</h3>
+
+            <form class="form-de-contato">
+                <input type="hidden" name="recipient" value="testeiseuemail@gmail.com">
+                <!-- Pode ser qualquer endereço de email -->
+                <input type="hidden" name="subject" value="teste de assunto"> <!-- Assunto da mensagem -->
+                <input type="hidden" name="email" value="email@doseudominio">
+                <!-- Deve ser uma conta de email ativa em seu domínio -->
+
+                <p>
+                    Nome:<br />
+                    <input type="text" size="30" name="nome">
+                </p>
+
+                <p>
+                    E-mail:<br />
+                    <input type="text" size="30" name="replyto">
+                </p>
+
+                <p>
+                    Comentários:<br />
+                    <input type="text" size="35" name="Comentarios">
+                </p>
+
+                <p>
+                    <input type="submit" name="BTEnvia" value="Enviar">
+                    <input type="reset" name="BTApaga" value="Apagar">
+                </p>
+            </form>
+        </div>
+
+
     </section>
 
 
@@ -160,7 +209,7 @@
             </div>
 
             <div class="divfooter2">
-                <h5>NOS SIGA NAS NOSSAS REDES SOCIAIS:</h5>
+                <h5>NOS SIGA NAS REDES SOCIAIS:</h5>
                 <br>
                 <a target="_blank" href="https://www.facebook.com/"><img src="./recursosfooter/iconefacebook.png"
                         class="iconesredes" alt="icone facebook"></a>
