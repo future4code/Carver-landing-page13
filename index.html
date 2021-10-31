@@ -1,147 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="/style.css">
+    <title>4Food</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 
 <body>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>4Food</title>
-        <link rel="stylesheet" type="text/css" href="./style.css">
-    </head>
+    <header>
+        <div class="logomarca">
+            <!-- <img class="logo" src="./recursosfooter/4food (2).png"> -->
+            <h1>4food</h1>
+        </div>
 
-    <body>
+        <div class="menu-header-navegação">
+            <nav>
+                <a class="menu" href="#menu-mercado">Mercados</a>
+                <a class="menu" href="#menu-pratos-prontos">Pratos Prontos</a>
+                <a class="menu" href="#quem-somos">Quem Somos</a>
+                <a class="menu" href="#contato">Contato</a>
+            </nav>
+        </div>
+        <div class="botao-buscar">
+            <input type="text" id="txtBusca" placeholder="Buscar..." />
+            <img class="icone-lupa" src="img/lupa.png" id="btnBusca" alt="Buscar" />
+        </div>
 
-        <header>
-            <div class="logomarca">
-                <img class="logo" src="./recursosfooter/4food (2).png">
-            </div>
-            <div class="menu-header-navegação">
-                <nav>
-                    <a class="menu" href="#menu-mercado">Mercados</a>
-                    <a class="menu" href="#menu-pratos-prontos">Pratos Prontos</a>
-                    <a class="menu" href="#quem-somos">Quem Somos</a>
-                    <a class="menu" href="#contato">Contato</a>
-                </nav>
-            </div>
-            <div class="botao-buscar">
-                <input type="text" id="txtBusca" placeholder="Buscar..." />
-                <img class="icone-lupa" src="img/lupa.png" id="btnBusca" alt="Buscar" />
-            </div>
+        <div class="botao">
+            <button type="button" class="botao-conta" label="Crie sua conta" target="">
+                Crie sua conta
+            </button>
+            <button type="button" class="botao-entrar" label="Entrar" target="">
+                Entrar
+            </button>
+        </div>
 
-            <div class="botao">
-                <button type="button" class="botao-conta" label="Crie sua conta" target="">
-                    Crie sua conta
-                </button>
-                <button type="button" class="botao" label="Entrar" target="">
-                    Entrar
-                </button>
-            </div>
+    </header>
 
-        </header>
-
-        <h1>4Food</h1>
+    <section class="banner-principal">
+        <img class="logo" src="./recursosfooter/4food (2).png" alt="logo da empresa">
         <h3 class="subtitulo">Coma bem sem sair de casa</h3>
+    </section>
 
-        <section id="menu-mercado">
-            <h2>Mercados</h2>
-        </section>
+    <section id="menu-mercado">
+        <h2>Mercados</h2>
+    </section>
 
-        <section class="container-sessao-de-mercado">
-            <div class="container-de-mercado">
-                <img class="img-mercado" src="./img/tododia.png" alt="">
-                <h3>Todo dia</h3>
-                <h4>Taxa de Entrega:R$ 3,00</h4>
-            </div>
+    <section class="container-sessao-de-mercado">
+        <div class="container-de-mercado">
+            <img class="img-mercado" src="./img/tododia.png" alt="">
+            <h3>Todo dia</h3>
+            <h4>Taxa de Entrega:R$ 3,00</h4>
+        </div>
 
-            <div class="container-de-mercado">
-                <img class="img-mercado" src="./img/mercado gourmet.png">
-                <h3>Mercado Gourmet</h3>
-                <h4>Taxa de Entrega:R$ 9,00</h4>
-            </div>
+        <div class="container-de-mercado">
+            <img class="img-mercado" src="./img/mercado gourmet.png">
+            <h3>Mercado Gourmet</h3>
+            <h4>Taxa de Entrega:R$ 9,00</h4>
+        </div>
 
-            <div class="container-de-mercado">
-                <img class="img-mercado" src="./img/eco market.jpg">
-                <h3>Eco Market</h3>
-                <h4>Taxa de Entrega:R$ 2,00</h4>
-            </div>
+        <div class="container-de-mercado">
+            <img class="img-mercado" src="./img/eco market.jpg">
+            <h3>Eco Market</h3>
+            <h4>Taxa de Entrega:R$ 2,00</h4>
+        </div>
 
-            <div class="container-de-mercado">
-                <img class="img-mercado" src="./img/mercadodamily.jpg">
-                <h3>Mercado Family</h3>
-                <h4>Taxa de Entrega:R$ 5,00</h4>
-            </div>
+        <div class="container-de-mercado">
+            <img class="img-mercado" src="./img/mercadodamily.jpg">
+            <h3>Mercado Family</h3>
+            <h4>Taxa de Entrega:R$ 5,00</h4>
+        </div>
 
-            <div class="container-de-mercado">
-                <img class="img-mercado" src="./img/super-market.jpg">
-                <h3>Supe Market</h3>
-                <h4>Taxa de Entrega:R$ 4,00</h4>
-            </div>
+        <div class="container-de-mercado">
+            <img class="img-mercado" src="./img/super-market.jpg">
+            <h3>Supe Market</h3>
+            <h4>Taxa de Entrega:R$ 4,00</h4>
+        </div>
 
-            <div class="container-de-mercado">
-                <img class="img-mercado" src="./img/mercado-big.png">
-                <h3>Big</h3>
-                <h4>Taxa de Entrega:R$ 6,00</h4>
-            </div>
-        </section>
+        <div class="container-de-mercado">
+            <img class="img-mercado" src="./img/mercado-big.png">
+            <h3>Big</h3>
+            <h4>Taxa de Entrega:R$ 6,00</h4>
+        </div>
+    </section>
 
-        <section id="menu-pratos-prontos">
-            <h2>Pratos Prontos</h2>
-        </section>
+    <section id="menu-pratos-prontos">
+        <h2>Pratos Prontos</h2>
+    </section>
 
-        <section class="container-sessao-de-marmitas">
-            <div class="container-de-marmita">
-                <img class="comida" src="./img/prato.png" alt="">
-                <h3>Da casa</h3>
-                <h4>Taxa de Entrega:R$ 4,00</h4>
-            </div>
+    <section class="container-sessao-de-marmitas">
+        <div class="container-de-marmita">
+            <img class="comida" src="./img/prato.png" alt="">
+            <h3>Da casa</h3>
+            <h4>Taxa de Entrega:R$ 4,00</h4>
+        </div>
 
-            <div class="container-de-marmita">
-                <img class="comida" src="./img/filafrango.jpg" alt="">
-                <h3>Da casa</h3>
-                <h4>Taxa de Entrega:R$ 4,00</h4>
-            </div>
+        <div class="container-de-marmita">
+            <img class="comida" src="./img/filafrango.jpg" alt="">
+            <h3>Da casa</h3>
+            <h4>Taxa de Entrega:R$ 4,00</h4>
+        </div>
 
-            <div class="container-de-marmita">
-                <img class="comida" src="./img/feijoada.png" alt="">
-                <h3>Da casa</h3>
-                <h4>Taxa de Entrega:R$ 4,00</h4>
-            </div>
+        <div class="container-de-marmita">
+            <img class="comida" src="./img/feijoada.png" alt="">
+            <h3>Da casa</h3>
+            <h4>Taxa de Entrega:R$ 4,00</h4>
+        </div>
 
-            <div class="container-de-marmita">
-                <img class="comida" src="./img/tacos.jpg" alt="">
-                <h3>Da casa</h3>
-                <h4>Taxa de Entrega:R$ 4,00</h4>
-            </div>
-        </section>
+        <div class="container-de-marmita">
+            <img class="comida" src="./img/tacos.jpg" alt="">
+            <h3>Da casa</h3>
+            <h4>Taxa de Entrega:R$ 4,00</h4>
+        </div>
+    </section>
 
 
-        <section>
-            <h2>Entregas</h2>
-            <p>Preencha os dados para entrega</p>
-            <label for="nome">Nome</label>
+    <section class="formulario-entregas">
+        <h2>Entregas</h2>
+        <p id="texto-dados">Preencha os dados para entrega:</p>
+        <form id="form-edereco">
+            <label for="nome" id="nome">Nome</label>
             <input type="text" name="nome" id="nome">
+            <label for="adress" >Endereço</label>
+            <input type="adress" name="endereco">
+        </form>
 
 
+    </section>
+
+    <section class="classe-quem-somos">
+        <h2>Quem somos</h2>
+        <p id="quem-somos">
+            Uma empresa que surgiu diante da necessidade da proximidade do contati entre o
+            cliente e suas compras. Unimos o útil ao agradável, onde o cliente pode encontrar
+            produtos de qualidade com preço justo e sem sair de casa. E o mercado ou restaurante
+            pode levar alcançar mais clientes e continuar com o seu atendimento.
+        </p>
+    </section>
+
+    <section class="contato">
+        <h2>Contato</h2>
+        <p id="p-de-contato">4food@contato4food.com.br</p>
+
+        <div>
+            <h3 id="h3-contato">Envie uma mensagem para nós</h3>
+
+            <form class="form-de-contato">
+                <input type="hidden" name="recipient" value="testeiseuemail@gmail.com">
+                <!-- Pode ser qualquer endereço de email -->
+                <input type="hidden" name="subject" value="teste de assunto"> <!-- Assunto da mensagem -->
+                <input type="hidden" name="email" value="email@doseudominio">
+                <!-- Deve ser uma conta de email ativa em seu domínio -->
+
+                <p>
+                    Nome:<br />
+                    <input type="text" size="30" name="nome">
+                </p>
+
+                <p>
+                    E-mail:<br />
+                    <input type="text" size="30" name="replyto">
+                </p>
+
+                <p>
+                    Comentários:<br />
+                    <input type="text" size="35" name="Comentarios">
+                </p>
+
+                <p>
+                    <input type="submit" name="BTEnvia" value="Enviar">
+                    <input type="reset" name="BTApaga" value="Apagar">
+                </p>
+            </form>
+        </div>
+
+
+    </section>
+
+
+    <footer>
+        <section class="estilo1footer">
+            <div div class="divfooter"><a target="_blank" href="index.html"><img src="./recursosfooter/4food (2).png"
+                        class="icone4foodfooter" alt="4Food"></a>
+                <h3>4FOOD</h3>
+            </div>
         </section>
 
-        <section id="quem-somos">
-            <h2>Quem somos</h2>
+        <section class="estilo2footer">
+            <div class="divfooter">
+                <h4>Horário de Atendimento:</h4>
+                <p>De Segunda a Domingo. Das 08h às 17h</p>
+
+            </div>
         </section>
 
-        <section id="contato">
-            <h2>Contato</h2>
-        </section>
+        <section class="estilo3footer">
 
+            <div class="divfooter1">
+                <h5>LINKS ÚTEIS</h5>
+                <a target="_blank" href="">Trabalhe Conosco</a>
+                <a target="_blank" href="">Perguntas Frequentes</a>
+                <a target="_blank" href="">Política de Privacidade</a>
+                <a target="_blank" href="">Termos e Condições de Uso</a>
+            </div>
+
+            <div class="divfooter2">
+                <h5>NOS SIGA NAS REDES SOCIAIS:</h5>
+                <br>
+                <a target="_blank" href="https://www.facebook.com/"><img src="./recursosfooter/iconefacebook.png"
+                        class="iconesredes" alt="icone facebook"></a>
+                <a target="_blank" href="https://www.instagram.com/"><img src="./recursosfooter/iconeinstagram.png"
+                        class="iconesredes" alt="icone instagram"></a>
+                <a target="_blank" href="https://www.twitter.com/"><img src="./recursosfooter/iconetwitter.png"
+                        class="iconesredes" alt="icone twitter"></a>
+            </div>
+    </footer>
 
         <footer>
             <section class="estilo1footer">
@@ -179,8 +255,6 @@
                     <a target="_blank" href="https://www.twitter.com/"><img src="./recursosfooter/iconetwitter.png"
                             class="iconesredes" alt="icone twitter"></a>
                 </div>
-
         </footer>
     </body>
-
 </html>
