@@ -12,6 +12,12 @@ Nosso sistema cria a possibilidade de compras e entregas por aplicativo.
 Objetivo: Comunicar a velocidade e praticidade dessa solução, destancando a possibilidade de 
 realizar (i) compras de supermercado online e (ii) compras de comidas prontas com uma 
 frequência semanal.
+
+## Surge:
+
+seemly-rabbits.surge.sh
 ```
+
+
 
 
