@@ -9,17 +9,39 @@ div{
 }
 =======
 
+  /* ESTILIZAÇÃO DO CORPO DO SITE */
+
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(27, 112, 55);
 }
+
+/* LINKS */
+
 a{
     text-decoration: none;
     color: honeydew;
 }
 
+a:hover{
+    color:rgb(34, 6, 6) ;
+}
+
+/* ESTLIZAÇÃO DO HEADER E MENU */
+
+header{
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: tan;
+    color: rgb(34, 6, 6);
+    max-height: 100%;
+    
+}
+
 .menu{
-    font-size: 25px;
+    font-size: 130%;
     padding: 15px;
 }
 
@@ -27,46 +49,85 @@ a{
     width: 15px ;
 }
 
-.logo {
-    width: 100px;
+#txtBusca{
+    max-width: 80%;
 }
 
-section{
-    margin: 0 20px;
-}
-
-header{
-
-    display: flex;
-    justify-content: space-around;
-    align-items: baseline;
+.botao-conta{
+    border: none;
+    padding: 5px;
     background-color: tan;
+    color: rgb(34, 6, 6);
+}
+
+.botao-conta:hover{
+    color: blanchedalmond;
+}
+
+
+.botao-entrar{
+    padding: 10px;
+    background-color: tan;
+    border: transparent;
+    font-size: 20px;
     
 }
 
-h1{
-    font-size: 50px;
-    text-align: center;  
-
-
+.botao-entrar:hover{
+    color: blanchedalmond;
 }
 
-h2{
-    font-size: 30px;
+/* .logo {
+    width: 100px;
+} */
+
+/* ESTILIZAÇÃO DE SECTION */
+
+/* section{
+    margin: 0 20px;
+} */
+
+/* BANNER PRINCIPAL */
+
+.banner-principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: rgb(41, 7, 7);
+    box-shadow: 1px 1px 1px 2px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.logo{
+    width: 15vw;
 }
 
 .subtitulo{
-    text-align: center;
+    padding-left: 40px;
 }
 
+/* CORPO DO SITE */
+
+h2{
+    margin-top: 10px;
+    text-align: center;
+    background-color: tan;
+    font-size: 40px;
+}
 
 .img-mercado{
     width: 200px;
+    max-width: 95%;
 }
 
 .comida{
     width: 200px;
+    max-width: 95%;
 }
+
+/* CONTAINER MERCADO E PRATOS PRONTOS */
 
 .container-sessao-de-mercado{
     display: grid;
@@ -104,11 +165,47 @@ h2{
     padding: 40px;
 }
 
+/* ESTILIZAÇÃO DAS ENTREGAS */
+
+#texto-dados{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+/* ESTILIZAÇÃO QUEM SOMOS */
+
+#quem-somos{    
+    margin: 50px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* ESTLIZAÇÃO DE CONTATO */
+
+#p-de-contato, .form-de-contato{
+    margin: 50px;
+    font-size: 20px;
+    width: 400px;
+    text-align: justify;
+
+}
+
+#h3-contato{
+    margin: 20px;
+    font-size: 25px;
+}
+
+/* ESTILIZAÇÃO DO FOOTER */
+
 footer{
     position: relative;
     bottom: 0;
     background-color: tan;
-    width: 100%;
+    max-width: 100%;
     height: fit-content;
 }
 
@@ -164,6 +261,15 @@ div>p{
     align-items: center;
     margin-bottom: 10px;
     width: 35px;
+}
+
+/* REPONSIVIDADE DO SITE */
+
+@media screen and (min-device-width:320px) and (max-device-width:480px) {
+    .menu{
+        display:none;
+    }
+
 }
  
 >>>>>>> 9c33600b86443dd5fee13dc0a9214f1f6c1f3108
