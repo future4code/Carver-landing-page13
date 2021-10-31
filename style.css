@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
 }
+<<<<<<< HEAD
+div{
+    display: grid;
+    align-items: center;
+}
+=======
 
   /* ESTILIZAÇÃO DO CORPO DO SITE */
 
@@ -266,3 +272,4 @@ div>p{
 
 }
  
+>>>>>>> 9c33600b86443dd5fee13dc0a9214f1f6c1f3108
