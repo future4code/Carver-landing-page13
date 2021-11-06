@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+  /* ESTILIZAÇÃO DO CORPO DO SITE */
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    color: rgb(27, 112, 55);
+}
+
+/* LINKS */
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color:rgb(125 94 76) ;
+}
+
+/* ESTLIZAÇÃO DO HEADER E MENU */
+
+header{
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: tan;
+    color: rgb(125 94 76);
+    max-height: 100%;
+    
+}
+
+.menu{
+    font-size: 130%;
+    padding: 15px;
+}
+
+.icone-lupa{
+    width: 15px ;
+}
+
+#txtBusca{
+    max-width: 80%;
+}
+
+.botao-conta{
+    border: none;
+    padding: 5px;
+    background-color: tan;
+    color: rgb(125 94 76);
+    font-size: 15px;
+}
+
+.botao-conta:hover{
+    color: rgb(255, 255, 255);
+}
+
+
+.botao-entrar{
+    padding: 10px;
+    background-color: tan;
+    border: transparent;
+    color: rgb(125 94 76);
+    font-size: 15px;
+    
+}
+
+.botao-entrar:hover{
+    color: rgb(255, 255, 255);
+}
+
+/* .logo {
+    width: 100px;
+} */
+
+/* ESTILIZAÇÃO DE SECTION */
+
+/* section{
+    margin: 0 20px;
+} */
+
+/* BANNER PRINCIPAL */
+
+.banner-principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: rgb(125 94 76);
+    box-shadow: 1px 1px 1px 2px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.logo{
+    width: 15vw;
+}
+
+.subtitulo{
+    text-align: center;
+    padding-left: 40px;
+}
+
+/* CORPO DO SITE */
+
+h2{
+    margin-top: 10px;
+    text-align: center;
+    background-color: tan;
+    font-size: 40px;
+}
+
+.img-mercado{
+    width: 200px;
+    max-width: 95%;
+}
+
+.comida{
+    width: 200px;
+    max-width: 95%;
+}
+
+/* CONTAINER MERCADO E PRATOS PRONTOS */
+
+.container-sessao-de-mercado{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    text-align: center;
+    row-gap: 10px;
+}
+
+.container-sessao-de-marmitas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    text-align: center;
+    padding: 10px;
+    row-gap: 10px;
+}
+
+#menu-pratos-prontos{
+    padding-bottom: 30px;
+    padding-top: 60px;
+}
+
+.container-de-mercado:hover{
+    border-radius: tan 1px solid ;
+    box-shadow: tan 5px 5px 3px;
+    padding: 40px;
+}
+    
+.container-de-marmita:hover{
+    border-radius: tan 1px solid ;
+    box-shadow: tan 5px 5px 3px;
+    padding: 40px;
+}
+
+/* ESTILIZAÇÃO DAS ENTREGAS */
+
+.formulario-entregas{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+
+#texto-dados{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+/* ESTILIZAÇÃO QUEM SOMOS */
+
+#quem-somos{    
+    margin: 50px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* ESTLIZAÇÃO DE CONTATO */
+
+
+#p-de-contato, .form-de-contato{
+    margin: 50px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+
+
+
+#h3-contato{
+    text-align: center;
+    margin: 20px;
+    font-size: 25px;
+}
+
+/* ESTILIZAÇÃO DO FOOTER */
+
+footer{
+    position: relative;
+    bottom: 0;
+    background-color: tan;
+    max-width: 100%;
+    height: fit-content;
+}
+
+.estilo1footer{ 
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: flex;
+   justify-content: center;    
+}
+
+.estilo2footer{
+    display: grid;
+    border-bottom:solid  rgb(125 94 76);
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    padding-bottom: 10px;
+}
+
+.estilo3footer{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+div>p{
+    display:inline-block;
+}
+
+.divfooter1{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 10px;
+}
+
+.divfooter2{
+    text-align-last: center;
+   
+}
+
+.icone4foodfooter{
+    width: 55px;
+}
+
+.iconesredes{
+    align-items: center;
+    margin-bottom: 10px;
+    width: 35px;
+}
+
+/* REPONSIVIDADE DO SITE */
+
+@media screen and (min-device-width:320px) and (max-device-width:480px) {
+    .menu{
+        display:none;
+    }
+
+}
+ 
+@media screen and (min-device-width:320px) and (max-device-width:480px) {
+    .estilo3footer{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+}
